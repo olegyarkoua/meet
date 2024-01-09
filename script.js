@@ -1,7 +1,7 @@
 document.getElementById('myForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    fetch('https://script.google.com/macros/s/AKfycbyRg_3wF_fAQ_nygsXSjFE5EQzglncE3ySTlM7omwrjPmwo6xBdJtQ709g3j6fFFcok/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbzfXg2QXRmSh02gtnZyx9jyO7HMnNS9VYxHifypnrz3XUBn6tdOy0L-bWuYEU_899-s/exec', {
         method: 'POST',
         mode: 'no-cors',
         headers: {
