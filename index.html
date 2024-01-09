@@ -1,8 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+ button {
+  padding: 15px 30px; /* Увеличиваем площадь кнопки */
+  font-size: 18px; /* Увеличиваем размер шрифта */
+  margin: 10px 0; /* Добавляем немного места вокруг кнопки */
+  cursor: pointer; /* Чтобы показать, что это кликабельный элемент */
+  border: none; /* Убираем границу (опционально) */
+  background-color: #008CBA; /* Добавляем цвет фона */
+  color: white; /* Цвет текста */
+  border-radius: 5px; /* Скругляем углы */
+  transition: background-color 0.3s; /* Плавное изменение цвета при наведении */
+}
+
+button:hover {
+  background-color: #005f73; /* Цвет фона при наведении */
+}
+
+/* Для улучшения доступности на мобильных устройствах */
+@media (max-width: 768px) {
+  button {
+    padding: 20px 40px; /* Увеличиваем площадь кнопки ещё больше */
+    font-size: 20px; /* Увеличиваем размер шрифта */
+  }
+}
     <meta charset="UTF-8">
     <title>Простая Форма</title>
+    <style>
+      /* Вставьте здесь предложенный CSS */
+    </style>
 </head>
 <body>
     <form id="myForm">
