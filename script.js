@@ -1,7 +1,7 @@
 document.getElementById('myForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    fetch('URL_вашего_веб-приложения', {
+    fetch('https://script.google.com/macros/s/AKfycbzfXg2QXRmSh02gtnZyx9jyO7HMnNS9VYxHifypnrz3XUBn6tdOy0L-bWuYEU_899-s/exec', {
         method: 'POST',
         mode: 'no-cors',
         headers: {
