@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
- button {
-  padding: 15px 30px; /* Увеличиваем площадь кнопки */
-  font-size: 18px; /* Увеличиваем размер шрифта */
-  margin: 10px 0; /* Добавляем немного места вокруг кнопки */
-  cursor: pointer; /* Чтобы показать, что это кликабельный элемент */
-  border: none; /* Убираем границу (опционально) */
-  background-color: #008CBA; /* Добавляем цвет фона */
-  color: white; /* Цвет текста */
-  border-radius: 5px; /* Скругляем углы */
-  transition: background-color 0.3s; /* Плавное изменение цвета при наведении */
-}
-
-button:hover {
-  background-color: #005f73; /* Цвет фона при наведении */
-}
-
-/* Для улучшения доступности на мобильных устройствах */
-@media (max-width: 768px) {
-  button {
-    padding: 20px 40px; /* Увеличиваем площадь кнопки ещё больше */
-    font-size: 20px; /* Увеличиваем размер шрифта */
-  }
-}
     <meta charset="UTF-8">
-    <title>Простая Форма</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уведомление с Веб-Сайта</title>
     <style>
-      /* Вставьте здесь предложенный CSS */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px 0;
+            cursor: pointer;
+            border: none;
+            background-color: #008CBA;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #005f73;
+        }
+
+        /* Для улучшения доступности на мобильных устройствах */
+        @media (max-width: 768px) {
+            button {
+                padding: 20px 40px;
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 <body>
