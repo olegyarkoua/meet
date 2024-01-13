@@ -12,7 +12,8 @@ document.getElementById('myForm').addEventListener('submit', function(e) {
     .then(() => {
         // Уведомление отправлено успешно, перенаправление на новую страницу
         //window.location.href = 'https://heyyep.com/channel/DJFYlAccmRfKMX3SPUGV';
-         window.history.back();
+         // window.history.back();
+        document.getElementById('confirmationMessage').style.display = 'block'; // Показываем сообщение
     })
     .catch((error) => {
         console.error('Ошибка:', error);
