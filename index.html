@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Уведомление с Веб-Сайта</title>
     <style>
+        #confirmationMessage {
+            display: none;
+            color: green;
+            margin-top: 20px;
+        }
+        
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -51,6 +57,9 @@
     <form id="myForm">
         <button type="submit">Отправить Уведомление</button>
     </form>
+
+    <!-- Скрытое сообщение, которое появится после отправки -->
+<div id="confirmationMessage">Сообщение отправлено. Можете закрыть это окно.</div>
 
     <script src="script.js"></script>
 </body>
